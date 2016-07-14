@@ -1,0 +1,9 @@
+
+{
+  "name": "apexperiment",
+  "description": "",
+  "memory": 128,
+  "timeout": 5,
+  "role": "arn:aws:iam::092644361586:role/apexperiment_lambda_function",
+  "environment": {}
+}
