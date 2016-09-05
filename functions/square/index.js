@@ -2,5 +2,6 @@ console.log('starting function')
 
 exports.handle = function(e, ctx, cb) {
   console.log('processing event: %j', e)
-  cb(null, { number: parseInt(e.number) * 2 })
+  var number = parseInt(e.number)
+  cb(null, { number: number * number })
 }
